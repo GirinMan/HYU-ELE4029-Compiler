@@ -1,0 +1,75 @@
+
+C-MINUS COMPILATION: test.3.txt
+	7: reserved word: void
+	7: ID, name= main
+	7: (
+	7: reserved word: void
+	7: )
+	8: {
+	9: reserved word: int
+	9: ID, name= i
+	9: ;
+	9: reserved word: int
+	9: ID, name= x
+	9: [
+	9: NUM, val= 5
+	9: ]
+	9: ;
+	11: ID, name= i
+	11: =
+	11: NUM, val= 0
+	11: ;
+	12: reserved word: while
+	12: (
+	12: ID, name= i
+	12: <
+	12: NUM, val= 5
+	12: )
+	13: {
+	14: ID, name= x
+	14: [
+	14: ID, name= i
+	14: ]
+	14: =
+	14: ID, name= f
+	14: (
+	14: ID, name= i
+	14: )
+	14: ;
+	15: ID, name= i
+	15: =
+	15: ID, name= i
+	15: +
+	15: NUM, val= 1
+	15: ;
+	16: }
+	18: ;
+	18: ;
+	19: }
+	21: reserved word: int
+	21: ID, name= func
+	21: (
+	21: reserved word: int
+	21: ID, name= x
+	21: )
+	21: {
+	22: reserved word: if
+	22: (
+	22: ID, name= x
+	22: <
+	22: NUM, val= 100
+	22: )
+	23: reserved word: return
+	23: ID, name= x
+	23: ;
+	24: reserved word: else
+	25: reserved word: return
+	25: ID, name= func
+	25: (
+	25: ID, name= x
+	25: -
+	25: NUM, val= 100
+	25: )
+	25: ;
+	26: }
+	66: EOF

@@ -1,0 +1,30 @@
+void foo(int a, int b)
+{
+    int c;
+    int c;
+    void x;
+
+    if (c[3])
+    {
+        int a;
+        a = b * c;
+        output(a);
+        return;
+    }
+    else
+    {
+        int a[10];
+        a[2] = input();
+        return;
+    }
+}
+
+int main(void)
+{
+    int x;
+    int y;
+
+    x[1] = foo(x, 42);
+
+    return x;
+}

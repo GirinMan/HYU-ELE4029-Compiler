@@ -1,0 +1,65 @@
+/* C-Minus Code Example 3
+ * Some Code might be represented
+ * if(f(3) < 0)
+ *   return 3;
+ */
+
+void main(void)
+{
+	int i; int x[5];
+	
+	i = 0;
+	while( i < 5 )
+	{
+		x[i] /* Comment can be anywhere */ = f(i);
+		i = i + 1;
+	}
+	
+	;/*;^_^;*/;
+}
+
+int func(int x) {
+    if (x < 100)
+        return x;
+    else
+        return func(x - 100);
+}
+
+/* ASCII ART IS AVAILABLE
+ *       Δ~~~~Δ
+ *       ξ ･ェ･ ξ
+ *       ξ　~　ξ
+ *       ξ　　 ξ
+ *       ξ　　 “~～~～?
+ *       ξ　　　　　　 ξ
+ *       ξ ξ ξ~～~ξ ξ
+ *       　ξ_ξξ_ξ　ξ_ξξ_ξ
+ *     [Alphaca]
+ */
+
+/*
+	　　|―-∩ 
+	　　|　　ヽ 
+	　　|　●　| 
+	　　|▼) _ノ 
+	　　|￣　) 
+	　 (￣ 　／ 
+	　　T￣|
+	   [Kakao Rion]
+*/
+
+/*
+
+			_.-````'-,_
+	_,.,_ ,-'`           `'-.,_
+	/)     (\                   '``-.
+	((      ) )                      `\
+	\)    (_/    HYU CSE :-)         )\
+	|       /)           '    ,'    / \
+	`\    ^'            '     (    /  ))
+		|      _/\ ,     /    ,,`\   (  "`
+		\Y,   |  \  \  | ````| / \_ \
+		`)_/    \  \  )    ( >  ( >
+					\( \(     |/   |/
+				/_(/_(    /_(  /_(        
+*/

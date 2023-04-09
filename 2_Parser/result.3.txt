@@ -1,0 +1,350 @@
+
+C-MINUS COMPILATION: test.3.txt
+
+Syntax tree:
+  Function Declaration: name = t1, return type = void
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = t1, type = int
+      Variable Declaration: name = t3, type = void
+      Variable Declaration: name = t2, type = int[]
+        Const: 2
+      Variable Declaration: name = t4, type = void[]
+        Const: 4
+  Function Declaration: name = t2, return type = void
+    Parameter: name = t1, type = void
+    Parameter: name = t2, type = void[]
+    Parameter: name = t3, type = int
+    Parameter: name = t4, type = int[]
+    Compound Statement:
+  Function Declaration: name = t3, return type = void
+    Void Parameter
+    Compound Statement:
+      Compound Statement:
+      Compound Statement:
+      Compound Statement:
+      Assign:
+        Variable: name = a
+        Variable: name = b
+          Assign:
+            Variable: name = c
+            Assign:
+              Variable: name = d
+              Variable: name = f
+                Assign:
+                  Variable: name = g
+                  Assign:
+                    Variable: name = h
+                    Variable: name = i
+                      Assign:
+                        Variable: name = j
+                        Assign:
+                          Variable: name = k
+                          Op: <=
+                            Op: +
+                              Op: -
+                                Op: *
+                                  Op: /
+                                    Op: /
+                                      Const: 4
+                                      Assign:
+                                        Variable: name = u
+                                          Assign:
+                                            Variable: name = a
+                                            Call: function name = b
+                                              Const: 4
+                                        Op: <
+                                          Op: -
+                                            Op: *
+                                              Const: 7
+                                              Variable: name = v
+                                            Op: *
+                                              Assign:
+                                                Variable: name = v
+                                                Op: !=
+                                                  Variable: name = b
+                                                  Op: +
+                                                    Const: 5
+                                                    Op: /
+                                                      Variable: name = b
+                                                      Call: function name = a
+                                              Call: function name = k
+                                                Assign:
+                                                  Variable: name = l
+                                                  Assign:
+                                                    Variable: name = l
+                                                    Assign:
+                                                      Variable: name = k
+                                                      Op: ==
+                                                        Op: +
+                                                          Op: *
+                                                            Const: 4
+                                                            Variable: name = a
+                                                          Variable: name = b
+                                                        Op: +
+                                                          Op: *
+                                                            Op: *
+                                                              Const: 5
+                                                              Call: function name = b
+                                                            Call: function name = c
+                                                          Op: *
+                                                            Const: 5
+                                                            Call: function name = k
+                                                              Assign:
+                                                                Variable: name = k
+                                                                  Assign:
+                                                                    Variable: name = j
+                                                                    Assign:
+                                                                      Variable: name = l
+                                                                      Const: 5
+                                                                Assign:
+                                                                  Variable: name = v
+                                                                  Variable: name = a
+                                                              Assign:
+                                                                Variable: name = c
+                                                                Assign:
+                                                                  Variable: name = lala
+                                                                  Op: >=
+                                                                    Op: +
+                                                                      Const: 5
+                                                                      Variable: name = b
+                                                                    Op: -
+                                                                      Op: *
+                                                                        Const: 7
+                                                                        Call: function name = y
+                                                                          Assign:
+                                                                            Variable: name = v
+                                                                            Assign:
+                                                                              Variable: name = j
+                                                                              Op: <
+                                                                                Op: -
+                                                                                  Op: *
+                                                                                    Assign:
+                                                                                      Variable: name = a
+                                                                                      Variable: name = a
+                                                                                    Variable: name = a
+                                                                                  Op: /
+                                                                                    Op: *
+                                                                                      Const: 4
+                                                                                      Call: function name = a
+                                                                                    Const: 5
+                                                                                Const: 5
+                                                                          Call: function name = c
+                                                                            Const: 1
+                                                                            Variable: name = a
+                                                                          Call: function name = f
+                                                                      Op: /
+                                                                        Call: function name = k
+                                                                        Const: 5
+                                          Op: -
+                                            Const: 4
+                                            Call: function name = k
+                                    Variable: name = a
+                                  Variable: name = a
+                                    Assign:
+                                      Variable: name = b
+                                      Assign:
+                                        Variable: name = k
+                                        Const: 4
+                                Op: *
+                                  Const: 8
+                                  Const: 5
+                              Const: 6
+                            Call: function name = b
+      Return Statement:
+        Assign:
+          Variable: name = n
+          Assign:
+            Variable: name = p
+            Op: ==
+              Variable: name = ad
+              Variable: name = ad
+  Function Declaration: name = t4, return type = int
+    Parameter: name = t4, type = void[]
+    Compound Statement:
+      Variable Declaration: name = t1, type = int
+      Variable Declaration: name = t3, type = void
+      Variable Declaration: name = t2, type = int[]
+        Const: 2
+      Variable Declaration: name = t4, type = void[]
+        Const: 4
+      While Statement:
+        Assign:
+          Variable: name = a
+          Assign:
+            Variable: name = b
+            Op: <=
+              Op: +
+                Variable: name = n
+                Const: 5
+              Op: +
+                Call: function name = t4
+                  Assign:
+                    Variable: name = k
+                    Assign:
+                      Variable: name = b
+                      Op: !=
+                        Op: +
+                          Variable: name = ad
+                          Op: *
+                            Call: function name = a
+                              Call: function name = t4
+                                Variable: name = t4
+                                Const: 8
+                                Const: 6
+                              Const: 8
+                              Const: 6
+                            Const: 9
+                        Const: 9
+                Op: *
+                  Variable: name = b
+                  Call: function name = t3
+        Non-value Return Statement
+  Function Declaration: name = t5, return type = void
+    Void Parameter
+    Compound Statement:
+      If Statement:
+        Call: function name = t5
+          Call: function name = t5
+            Variable: name = t
+        If-Else Statement:
+          Assign:
+            Variable: name = a
+            Assign:
+              Variable: name = b
+              Op: <=
+                Const: 6
+                Op: -
+                  Op: +
+                    Call: function name = t5
+                      Const: 6
+                    Op: *
+                      Op: /
+                        Variable: name = f
+                        Const: 6
+                      Call: function name = a
+                  Op: *
+                    Const: 5
+                    Call: function name = a
+                      Assign:
+                        Variable: name = a
+                        Variable: name = a
+                      Assign:
+                        Variable: name = b
+                        Variable: name = b
+                      Call: function name = t5
+                        Variable: name = a
+                        Variable: name = b
+                        Variable: name = c
+          Compound Statement:
+          If Statement:
+            Const: 5
+            If Statement:
+              Variable: name = t
+              If Statement:
+                Const: 5
+                While Statement:
+                  Call: function name = c
+                    Const: 0
+                  If Statement:
+                    Const: 0
+                    If Statement:
+                      Assign:
+                        Variable: name = a
+                          Const: 6
+                        Call: function name = a
+                          Variable: name = a
+                      While Statement:
+                        Call: function name = v
+                        If-Else Statement:
+                          Variable: name = exp
+                          Const: 4
+                          If-Else Statement:
+                            Variable: name = a
+                              Assign:
+                                Variable: name = k
+                                Variable: name = v
+                                  Const: 6
+                            If-Else Statement:
+                              Const: 1
+                              If-Else Statement:
+                                Const: 0
+                                Assign:
+                                  Variable: name = k
+                                  Assign:
+                                    Variable: name = v
+                                      Call: function name = a
+                                        Variable: name = a
+                                        Variable: name = b
+                                        Variable: name = c
+                                    Variable: name = t
+                              While Statement:
+                                Op: -
+                                  Variable: name = t
+                                  Op: *
+                                    Const: 5
+                                    Assign:
+                                      Variable: name = k
+                                      Const: 5
+                                If-Else Statement:
+                                  Assign:
+                                    Variable: name = v
+                                    Assign:
+                                      Variable: name = k
+                                      Op: ==
+                                        Variable: name = ad
+                                        Op: +
+                                          Op: -
+                                            Variable: name = ad
+                                            Call: function name = ad
+                                              Assign:
+                                                Variable: name = v
+                                                Call: function name = v
+                                                  Variable: name = a
+                                                  Variable: name = v
+                                          Op: *
+                                            Const: 6
+                                            Variable: name = v
+                                  Compound Statement:
+                                  Compound Statement:
+                            If-Else Statement:
+                              Variable: name = t
+                              If-Else Statement:
+                                Call: function name = a
+                                  Const: 6
+                                Return Statement:
+                                  Const: 6
+                                Return Statement:
+                                  Call: function name = a
+                                    Variable: name = a
+                                    Variable: name = b
+                                    Variable: name = a
+                              Non-value Return Statement
+      If Statement:
+        Op: <
+          Variable: name = a
+          Const: 0
+        If-Else Statement:
+          Op: >
+            Variable: name = a
+            Const: 3
+          Assign:
+            Variable: name = a
+            Const: 3
+          Assign:
+            Variable: name = a
+            Const: 4
+      Return Statement:
+        Assign:
+          Variable: name = t
+          Const: 5
+  Function Declaration: name = t6, return type = int
+    Parameter: name = a, type = int[]
+    Compound Statement:
+      Compound Statement:
+  Variable Declaration: name = a, type = int
+  Variable Declaration: name = b, type = int[]
+    Const: 2
+  Variable Declaration: name = c, type = void
+  Variable Declaration: name = d, type = void[]
+    Const: 4

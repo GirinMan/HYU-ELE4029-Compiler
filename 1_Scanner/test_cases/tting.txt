@@ -1,0 +1,17 @@
+/* testcase 1: single symbols */
++ - * ( ) { } [ ] < > = / ; ,
+
+/* testcase 2: multi symbols */
+<= >= != ==
+
+/* testcase 3: identifier */
+abc abc123 ab12sd54 123abc Hanyang CSE2022 abc+qwe
+
+/* testcase 4: num */
+1111 22222222222 33333444 55555aa55555 666666+666666 7777 7777
+
+/* testcase 5: comment */
+/* asdf */ ,/***/ ,/******/ , /**** //// comment ** /// */;
+
+/* testcase 6: incorrect token */
+: . " ' _ & @ !123 !+ :123 !:!= =! 

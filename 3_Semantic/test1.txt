@@ -1,0 +1,15 @@
+void foo(int u, int v)
+{
+    int y[3];
+    return x + y;
+}
+
+int main(void)
+{
+    int x;
+    int y[3];
+
+    foo(x, y[1]);
+
+    return x + y[x];
+}

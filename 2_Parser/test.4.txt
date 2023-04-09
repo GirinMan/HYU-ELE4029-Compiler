@@ -1,0 +1,51 @@
+void test1(void)
+{
+    int a;
+    void b;
+    void c[1];
+    int d[2];
+}
+
+void test2(int a, int b[])
+{
+    if (a) if (b) s; else s2;
+    
+    if(a)
+    {
+        if(b) s;
+        else s2;
+    }
+
+    if(a)
+    {
+        if(b) s;
+    }
+    else s2;
+}
+
+int test3(int off[], void the[], int hook)
+{
+    ;
+    v1 = v2 = a + b + c;
+    v1 = v2 = a - b - c;
+    v3 = v4 = a + b / c;
+    v3 = v4 = a - b * c;
+    v5 = v6 = a <= b - c * d;
+    v5 = v6 = a < b + c / d;
+    v5 = v6 = a > b - c * d;
+    v5 = v6 = a >= b + c / d - d;
+    v5 = v6 = ((((a == ((b != c) == d)) <= e) < f) > (g >= h));
+    v5 = v6 = (a < b + c / d) != f;
+    v7 = ((v6 <= (v7 != 6) - test3(a, b, c, test3())) != 5);
+}
+
+int test4(int i, void love[], int y)
+{
+    while(v1 = test4(a, var[4]))
+    {
+        test;
+    }
+    while(6) while(v[4]) return;
+    
+    return 5;
+}

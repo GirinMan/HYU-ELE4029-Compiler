@@ -1,0 +1,193 @@
+
+C-MINUS COMPILATION: ./test.4.txt
+
+Syntax tree:
+  Function Declaration: name = test1, return type = void
+    Void Parameter
+    Compound Statement:
+      Variable Declaration: name = a, type = int
+      Variable Declaration: name = b, type = void
+      Variable Declaration: name = c, type = void[]
+        Const: 1
+      Variable Declaration: name = d, type = int[]
+        Const: 2
+  Function Declaration: name = test2, return type = void
+    Parameter: name = a, type = int
+    Parameter: name = b, type = int[]
+    Compound Statement:
+      If Statement:
+        Variable: name = a
+        If-Else Statement:
+          Variable: name = b
+          Variable: name = s
+          Variable: name = s2
+      If Statement:
+        Variable: name = a
+        Compound Statement:
+          If-Else Statement:
+            Variable: name = b
+            Variable: name = s
+            Variable: name = s2
+      If-Else Statement:
+        Variable: name = a
+        Compound Statement:
+          If Statement:
+            Variable: name = b
+            Variable: name = s
+        Variable: name = s2
+  Function Declaration: name = test3, return type = int
+    Parameter: name = off, type = int[]
+    Parameter: name = the, type = void[]
+    Parameter: name = hook, type = int
+    Compound Statement:
+      Assign:
+        Variable: name = v1
+        Assign:
+          Variable: name = v2
+          Op: +
+            Op: +
+              Variable: name = a
+              Variable: name = b
+            Variable: name = c
+      Assign:
+        Variable: name = v1
+        Assign:
+          Variable: name = v2
+          Op: -
+            Op: -
+              Variable: name = a
+              Variable: name = b
+            Variable: name = c
+      Assign:
+        Variable: name = v3
+        Assign:
+          Variable: name = v4
+          Op: +
+            Variable: name = a
+            Op: /
+              Variable: name = b
+              Variable: name = c
+      Assign:
+        Variable: name = v3
+        Assign:
+          Variable: name = v4
+          Op: -
+            Variable: name = a
+            Op: *
+              Variable: name = b
+              Variable: name = c
+      Assign:
+        Variable: name = v5
+        Assign:
+          Variable: name = v6
+          Op: <=
+            Variable: name = a
+            Op: -
+              Variable: name = b
+              Op: *
+                Variable: name = c
+                Variable: name = d
+      Assign:
+        Variable: name = v5
+        Assign:
+          Variable: name = v6
+          Op: <
+            Variable: name = a
+            Op: +
+              Variable: name = b
+              Op: /
+                Variable: name = c
+                Variable: name = d
+      Assign:
+        Variable: name = v5
+        Assign:
+          Variable: name = v6
+          Op: >
+            Variable: name = a
+            Op: -
+              Variable: name = b
+              Op: *
+                Variable: name = c
+                Variable: name = d
+      Assign:
+        Variable: name = v5
+        Assign:
+          Variable: name = v6
+          Op: >=
+            Variable: name = a
+            Op: -
+              Op: +
+                Variable: name = b
+                Op: /
+                  Variable: name = c
+                  Variable: name = d
+              Variable: name = d
+      Assign:
+        Variable: name = v5
+        Assign:
+          Variable: name = v6
+          Op: >
+            Op: <
+              Op: <=
+                Op: ==
+                  Variable: name = a
+                  Op: ==
+                    Op: !=
+                      Variable: name = b
+                      Variable: name = c
+                    Variable: name = d
+                Variable: name = e
+              Variable: name = f
+            Op: >=
+              Variable: name = g
+              Variable: name = h
+      Assign:
+        Variable: name = v5
+        Assign:
+          Variable: name = v6
+          Op: !=
+            Op: <
+              Variable: name = a
+              Op: +
+                Variable: name = b
+                Op: /
+                  Variable: name = c
+                  Variable: name = d
+            Variable: name = f
+      Assign:
+        Variable: name = v7
+        Op: !=
+          Op: <=
+            Variable: name = v6
+            Op: -
+              Op: !=
+                Variable: name = v7
+                Const: 6
+              Call: function name = test3
+                Variable: name = a
+                Variable: name = b
+                Variable: name = c
+                Call: function name = test3
+          Const: 5
+  Function Declaration: name = test4, return type = int
+    Parameter: name = i, type = int
+    Parameter: name = love, type = void[]
+    Parameter: name = y, type = int
+    Compound Statement:
+      While Statement:
+        Assign:
+          Variable: name = v1
+          Call: function name = test4
+            Variable: name = a
+            Variable: name = var
+              Const: 4
+        Compound Statement:
+          Variable: name = test
+      While Statement:
+        Const: 6
+        While Statement:
+          Variable: name = v
+            Const: 4
+          Non-value Return Statement
+      Return Statement:
+        Const: 5

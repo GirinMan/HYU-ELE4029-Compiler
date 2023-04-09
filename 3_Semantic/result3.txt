@@ -1,0 +1,7 @@
+
+C-MINUS COMPILATION: test3.txt
+Error: Undeclared function "foo1" is called at line 5
+Error: Invalid function call at line 5 (name : "foo1")
+Error: Invalid return at line 5
+Error: Undeclared variable "z" is used at line 25
+Error: Invalid array indexing at line 25 (name : "y"). Indices should be integer

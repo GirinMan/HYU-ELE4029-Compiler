@@ -1,0 +1,64 @@
+
+C-MINUS COMPILATION: ./tting.txt
+	2: +
+	2: -
+	2: *
+	2: (
+	2: )
+	2: {
+	2: }
+	2: [
+	2: ]
+	2: <
+	2: >
+	2: =
+	2: /
+	2: ;
+	2: ,
+	5: <=
+	5: >=
+	5: !=
+	5: ==
+	8: ID, name= abc
+	8: ID, name= abc123
+	8: ID, name= ab12sd54
+	8: NUM, val= 123
+	8: ID, name= abc
+	8: ID, name= Hanyang
+	8: ID, name= CSE2022
+	8: ID, name= abc
+	8: +
+	8: ID, name= qwe
+	11: NUM, val= 1111
+	11: NUM, val= 22222222222
+	11: NUM, val= 33333444
+	11: NUM, val= 55555
+	11: ID, name= aa55555
+	11: NUM, val= 666666
+	11: +
+	11: NUM, val= 666666
+	11: NUM, val= 7777
+	11: NUM, val= 7777
+	14: ,
+	14: ,
+	14: ,
+	14: ;
+	17: ERROR: :
+	17: ERROR: .
+	17: ERROR: "
+	17: ERROR: '
+	17: ERROR: _
+	17: ERROR: &
+	17: ERROR: @
+	17: ERROR: !
+	17: NUM, val= 123
+	17: ERROR: !
+	17: +
+	17: ERROR: :
+	17: NUM, val= 123
+	17: ERROR: !
+	17: ERROR: :
+	17: !=
+	17: =
+	17: ERROR: !
+	18: EOF

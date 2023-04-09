@@ -1,0 +1,5 @@
+
+C-MINUS COMPILATION: ./test1.txt
+Error: Undeclared variable "x" is used at line 4
+Error: Invalid operation at line 4
+Error: Invalid return at line 4

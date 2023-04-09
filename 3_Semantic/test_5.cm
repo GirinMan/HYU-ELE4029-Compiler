@@ -1,0 +1,47 @@
+void t1(void)
+{
+	int t1;
+	void t3;
+	int t2[2];
+	void t4[4];
+}
+
+void t2(void t1, void t2[], int t3, int t4[])
+{
+}
+
+void t3(void)
+{
+	{} {} {}
+	;
+	a = b[c=d=f[g=h=i[j=k= 4 / (u[((a = b(4)))] = 7 * (v)- ((v = b != 5 + b / a() )) * k(l = l = k = (((4))) * (a) + b == (5) * b() * c() + 5 * k(k[j = l = 5] = v = (a) , c = lala = 5 + (b) >= 7 * y(v = j = (a = a) * a - 4 * a() / (5) < (5), c(1, a), f()) - ((k())) / 5) ) < 4 - k()) / a * a[b = k = ((4))] - 8 * 5 + 6 <= b()]]];
+	return n = p = ad == ad;
+}
+
+int t4(void t4[])
+{
+	int t1;
+	void t3;
+	int t2[2];
+	void t4[4];
+
+	while(a = b = ((n)) + ((5)) <= ((t4(k = b = ad + a(((t4(t4, 8, 6))), 8, 6) * 9 != 9))) + b * t3())
+	return;
+}
+
+void t5(void)
+{
+	if((t5((t5(t))))) if (a = b = ((6)) <= t5(6) + f / 6 * a() - 5 * a(a = a, b = b, ((t5(a, b, c))))) {} else if((((5)))) if(t) if(5) while(c(0)) if(0) if(a[(6)] = a(a)) while(((v()))) if(exp) 4; else if(a[k = (v[6])]) if(1) if(0) (k = v[a(a,b,c)] = (t)); else ; else while(t - (((5))) * (k = 5)) if(v = k = ad == ad - ad (v = v(a, v)) + 6 * v ) {} else {} else if (t) if(a(6)) return (((6))); else return a(a,b,a); else return;
+	if(a<0) if(a>3)a=3; else a=4;
+	return (t = 5);
+}
+
+int t6(int a[])
+{
+	{}
+}
+
+int a;
+int b[2];
+void c;
+void d[4];

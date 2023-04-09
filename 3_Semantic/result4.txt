@@ -1,0 +1,8 @@
+
+C-MINUS COMPILATION: test4.txt
+Error: Symbol "c" is redefined at line 4
+Error: The void-type variable is declared at line 5 (name : "x")
+Error: Invalid array indexing at line 7 (name : "c"). Indexing can only be allowed for int[] variables
+Error: Invalid condition at line 7
+Error: Invalid array indexing at line 27 (name : "x"). Indexing can only be allowed for int[] variables
+Error: Invalid assignment at line 27

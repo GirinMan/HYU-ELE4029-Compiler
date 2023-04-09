@@ -1,0 +1,26 @@
+int foo(int x)
+{
+    int z;
+    z = x * 3;
+    return foo1(z);
+}
+
+
+int main(void)
+{
+    int x;
+    int y[3];
+
+    if(x < 1)
+    {
+        int z;
+        
+        while(z > 0)
+        {
+            z = z - 1;
+            y[z] = foo(x);
+        }
+    }
+
+    return x + y[z];
+}
